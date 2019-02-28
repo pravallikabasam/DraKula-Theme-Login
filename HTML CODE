@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Login Page</title>
+    <style>
+        body
+        {
+            display: flex;
+            background: #000;
+            flex-direction: row;
+            justify-content: center;
+        }
+    .Container
+        {
+             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: #000;
+            text-align: center;
+            margin-top: 8%;
+            border-right: 0.2rem solid rgb(0, 255, 85);
+            border-top: 0.2rem solid rgb(0, 255, 85);
+            border-left: 0.2rem solid rgb(0, 255, 85);
+            border-bottom: 0.2rem solid rgb(0, 255, 85);
+            border-radius: 4rem;
+            padding: 4%;
+            color: aliceblue;
+            
+        }
+        #Name
+        {
+            margin: 4%;
+            padding: 4%;
+            text-align: center;
+
+        }
+        #Login :hover
+        {
+  box-shadow: 0 5px 15px rgb(0, 255, 85);
+        }
+  #Name :hover
+        {
+           
+  box-shadow: 0 5px 15px rgb(0, 255, 85);
+        }
+        #Email
+        {
+             margin: 4%;
+            text-align: center;
+        }
+        #Email :hover
+        {
+  box-shadow: 0 5px 15px rgb(0, 255, 85);
+        }
+        #Submit
+        {
+             margin: 4%;
+            text-align: center;
+        }
+        #Submit :hover
+        {
+  box-shadow: 0 5px 15px rgb(0, 255, 85);
+        }
+        #Password
+        {
+            margin: 4%;
+            text-align: center;
+        }
+    #Password :hover
+        { 
+
+  box-shadow: 0 5px 15px rgb(0, 255, 85);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="Container">
+        <div id="Login"><i class="fas fa-sign-in-alt fa-4x"></i></div>
+        <div id="Name">
+            <h2 id="Login">LOG IN</h2>
+        </div>
+        <div id="Email"><input class="form-control input-lg" id="Input" placeholder="ex., John@example.com" type="email" required></div>
+        <div id="Password"><input class="form-control input-lg" id="Input" placeholder="*******" type="password" required></div>
+        <div id="Submit"><button type="button" class="btn btn-success btn-lg">LOG IN</button></div>
+    </div>
+
+</body>
+
+</html>
